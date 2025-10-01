@@ -113,9 +113,11 @@ Dengan masuk --> Statistics --> Capture File Properties
 Didapat 500358 packages. 
 
 A. Filtering seluruh Keyword di HTTP . Identifikasi masing masing dan ditemukan Beberapa username dan Password yang berbeda dengan Akhiran Invalid Credentials. 
+
 <img width="534" height="328" alt="Screenshot 2025-10-01 222820" src="https://github.com/user-attachments/assets/5d0ef0c6-16c6-4bf6-af33-f720db6b387c" />
 
 B. Saya mencoba Filter dengan keyword “LOGIN” , Karena saya berpikir Dengan kata kunci login. Bisa menemukan username dan password yang asli. Pakai filter http contains "Login". 
+
 <img width="457" height="328" alt="image" src="https://github.com/user-attachments/assets/6ec0e34b-ccb5-49c9-bdba-21b78b760407" />
 
 C. Ditemukan Username dan Password yang sebenarnya tinggal masukin ke NetCat
