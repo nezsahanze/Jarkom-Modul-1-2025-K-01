@@ -10,7 +10,13 @@
 
 ### Soal 2
 <img width="1019" height="321" alt="image" src="https://github.com/user-attachments/assets/dd5d33f2-4003-4ccc-b86b-30732e8caf65" />
+- Eru
+```
+auto eth0
+iface eth0 inet dhcp
+```
 
+Melakukan testing apakah sudah terhubung dengan internet dengan melakukan `ping google.com -c 5`
 ### Soal 3
 - Eru
 ```
@@ -60,11 +66,13 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 10.64.2.1
 ```
-
+mengecek ip dari masing-masing client dengan `ip a` lalu untuk mengecek apakah setiap client telah terhubung, gunakan `ping <IP Client>`
 ### Soal 4
 Pada terminal Eru jalankan `iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE` lalu tes dengan `ping`
 <img width="995" height="317" alt="image" src="https://github.com/user-attachments/assets/2bbea819-edfe-4dd1-be8f-26cfcab137b0" />
+lakukan `cat /etc/resolv.conf` untuk mendapatkan nameserver
 
+Pada terminal Menwa, jalankan `echo nameserver 192.168.122.1 > /etc/resolv.conf` dan untuk mengecek apakah sudah terhubung dengan internet, tes dengan `ping google.com -c 5`
 ### Soal 5
 
 
