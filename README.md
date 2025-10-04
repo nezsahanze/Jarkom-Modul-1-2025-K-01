@@ -10,7 +10,8 @@
 
 ### Soal 2
 <img width="1019" height="321" alt="image" src="https://github.com/user-attachments/assets/dd5d33f2-4003-4ccc-b86b-30732e8caf65" />
-- Eru
+
+configure client Eru
 ```
 auto eth0
 iface eth0 inet dhcp
