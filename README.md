@@ -15,7 +15,6 @@
 auto eth0
 iface eth0 inet dhcp
 ```
-
 Melakukan testing apakah sudah terhubung dengan internet dengan melakukan `ping google.com -c 5`
 ### Soal 3
 - Eru
